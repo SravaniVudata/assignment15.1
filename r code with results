@@ -1,0 +1,30 @@
+> setwd("C:\\Users\\lenovo\\Desktop")
+> getwd()
+[1] "C:/Users/lenovo/Desktop"
+
+
+> file1<- read.delim('tab.txt')
+
+
+> file1
+    X  Y  Z
+1 910 a1 b1
+2 820 a2 b2
+3 730 a3 b3
+4 640 a4 b4
+5 550 a5 b5
+6 460 a6 b6
+
+
+
+> file2<- read.csv('csv.csv')
+
+
+> file2
+    X  Y  Z
+1 910 a1 b1
+2 820 a2 b2
+3 730 a3 b3
+4 640 a4 b4
+5 550 a5 b5
+6 460 a6 b6
